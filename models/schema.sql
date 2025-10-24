@@ -17,3 +17,12 @@ CREATE TABLE IF NOT EXISTS Salaries(
   Salary DECIMAL(10,2) NOT NULL,
   User_ID INT REFERENCES users(id) ON DELETE CASCADE
 );
+
+-- Table: logs
+CREATE TABLE IF NOT EXISTS logs (
+  id SERIAL PRIMARY KEY,
+  log_type VARCHAR(50),       
+  message TEXT,               
+  details TEXT,               
+  created_at TIMESTAMP DEFAULT NOW()
+);
