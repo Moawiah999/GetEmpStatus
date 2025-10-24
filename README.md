@@ -8,17 +8,17 @@ git clone <repo-url>
 cd <repo-folder>
 2. **Install dependencies**
 npm install  or npm i
-3.**Set up environment variables**
+3. **Set up environment variables**
 Rename .env.example to .env
-4.**Create Database**
+4. **Create Database**
 Remove the comment from this section to create the database in config\db.js.
-5.**Server operation**
+5. **Server operation**
 Use this command to start the server
 npm run dev
-6.**Create tables**
+6. **Create tables**
 Use this command to create tables
 node createTables.js
-7.**adding data to tables**
+7. **adding data to tables**
 Use this command to add date to tables
 node sampleData.js
 
