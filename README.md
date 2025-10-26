@@ -38,13 +38,13 @@ node sampleData.js
 4. Actions and errors are logged using `logger.js` into the `logs` table.
 5. The server returns a JSON response to the client.
 
-## API Endpoint
+**Testing the Endpoint:**
 
-### Get Employee Status
+You can test this API using Postman or any HTTP client:
 
-- **Endpoint:** `api/getEmpStatus`  
-- **Request Type:** `POST`  
-- **Request Body:** JSON  
+1. Open Postman.
+2. Create a new POST request to `http://localhost:3000/api/getEmpStatus`.
+3. In the request body, select `raw` → `JSON` and paste:
 
 ```json
 {
