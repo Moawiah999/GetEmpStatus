@@ -43,7 +43,7 @@ node sampleData.js
 You can test this API using Postman or any HTTP client:
 
 1. Open Postman.
-2. Create a new POST request to `http://localhost:3000/api/getEmpStatus`.
+2. Create a new POST request to `http://localhost:5000/api/getEmpStatus`.
 3. In the request body, select `raw` → `JSON` and paste:
 
 ```json
